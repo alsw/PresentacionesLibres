@@ -1,0 +1,8 @@
+El demo de Arduino es el mismo demo de blink que viene con ZAP 2.3.0
+
+Para generar el demo hay que usar el menu "Papilio"->"New Papilio Project" y elegir
+donde guardar el proyecto.
+
+Hay que tener en cuenta que el demo de blink posee un bug de sintaxis donde no
+se declara la variable "led". Basta con agregar la linea "int led = 0;" para
+arreglarlo.

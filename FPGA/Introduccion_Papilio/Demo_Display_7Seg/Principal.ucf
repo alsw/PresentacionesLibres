@@ -1,0 +1,18 @@
+NET "clk" LOC = "P89" | IOSTANDARD = LVCMOS25 | PERIOD = 31.25ns ;
+
+NET "segmentos<5>" LOC = "P18";
+NET "segmentos<6>" LOC = "P23" ;  	
+NET "segmentos<0>" LOC = "P26" ;  	
+NET "segmentos<1>" LOC = "P33" ;  	
+NET "anodos<0>" LOC = "P35" ;  	
+NET "segmentos<4>" LOC = "P40" ;  	
+NET "segmentos<3>" LOC = "P53" ;  	
+NET "segmentos<2>" LOC = "P57" ;  	
+NET "anodos<1>" LOC = "P60" ;  	
+NET "botones<0>" LOC = "P62" ;   
+NET "botones<1>" LOC = "P65" ;	
+#NET "W1A<11>" LOC = "P67" ;	
+#NET "W1A<12>" LOC = "P70" ;	
+#NET "W1A<13>" LOC = "P79" ;	
+#NET "W1A<14>" LOC = "P84" ;	
+#NET "W1A<15>" LOC = "P86" ;	
