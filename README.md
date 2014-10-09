@@ -1,4 +1,4 @@
-Presentaciones Libres by chepecarlos(chepecarlos@alswblog.org)
+Presentaciones Libres by ALSW
 ====================
 
 Presentaciones diversas de Software Libre y Open HardWare.
@@ -20,10 +20,15 @@ flecha derecha: siquiente frame
 flecha izquierda: anterior frame
  
 
-Editarlas
+Editar Presentaciones
 =========
 
-Cual quier edicion pueder solomente abriendo la imagen .svg en inkscape
+Realmente las presentaciones son imagenes SVG, por lo cual lo pueden editar usando el editor de imagenes vectorisada Inkscape y el plugin SOZI
+
+
+Contribuidores
+=========
+ChepeCarlos (chepecarlos@alswblog.org) (fb.com/chepecarlos)
 
 Licencia
 ========
@@ -47,5 +52,5 @@ Bajo las condiciones siguientes:
 Recomendado
 ===========
 
-Instalar las fuentes que estas en la carpeta Fuentes para que se vea correctamente la presentacion.
-
+*Instalar las fuentes que estas en la carpeta Fuentes para que se vea correctamente la presentacion, ya que muchas presentaciones usan estas fuentes.
+*No funciona correctamente con IE, se recomienda **Firefox**
