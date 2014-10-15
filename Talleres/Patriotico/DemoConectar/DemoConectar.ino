@@ -4,11 +4,9 @@ SoftwareSerial BTSerial(10, 11); // RX | TX
 
 void setup()
 {
-  pinMode(9, OUTPUT); 
-  digitalWrite(9, HIGH);
   Serial.begin(9600);
   Serial.println("Entra en comandos AT:");
-  BTSerial.begin(38400);  
+  BTSerial.begin(9600);  
 }
 
 void loop()
