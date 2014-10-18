@@ -15,7 +15,7 @@
    height="744.09448"
    id="svg33765"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.48.5 r10040"
    sodipodi:docname="Gitiando.svg">
   <sodipodi:namedview
      id="base"
@@ -30,10 +30,10 @@
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1364"
-     inkscape:window-height="703"
+     inkscape:window-width="1280"
+     inkscape:window-height="734"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="27"
      inkscape:window-maximized="1" />
   <defs
      id="defs33767">
@@ -369,9 +369,9 @@
        style="font-size:241.48414612px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:3.13929391px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
        xml:space="preserve"><tspan
          y="10355.89"
-         x="3500.7456"
+         x="3500.7454"
          id="tspan3094"
-         sodipodi:role="line">Gracias por su atencion</tspan></text>
+         sodipodi:role="line">Gracias por su atención</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:90.82590485px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000080;fill-opacity:1;stroke:none;font-family:Sans"
