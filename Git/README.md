@@ -1,4 +1,4 @@
-Presentacion "Desarrollo Cooperativo con: GIT"
+Presentación "Desarrollo Cooperativo con: git"
 ==============================================
 
 Inicio >> VercionandoGit.svg
