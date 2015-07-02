@@ -1,6 +1,9 @@
 #Archivos que se agregan al comprimido
 adicionales =
 
+#Archivos de informacion de presentacion
+readme = $(../README.md)
+
 #Programa convertidor de sozi a pdf
 sozi2pdf = python ../sozi2pdf/sozi2pdf.py
 
@@ -27,3 +30,7 @@ $(comprimido): $(objetivos) $(fuentes) $(adicionales)
 clean:
 	rm $(objetivos)
 	rm $(comprimido)
+	
+.phony: pdfmenos
+pdfmenos:
+	rm $(objetivos)

@@ -20,10 +20,10 @@ void setup() {
   sb = new Spacebrew( this );
 
   //Crea el enviar datos de spacebrew
-  sb.addPublish( "Boton_Virtal", "boolean", true ); 
+  sb.addPublish( "Boton_Virtal","range", 0); 
 
   //crea e escuchar datos de spacebrew
-  sb.addSubscribe( "Fondo", "boolean" );
+  sb.addSubscribe( "Fondo", "range" );
 
   //Conectarce con Spacebrew
   sb.connect(server, name, description );
@@ -50,14 +50,14 @@ void draw() {
   }
 }
 
-void mousePressed() {
+void mousePressed(){
   // Envia el mensaje a spacebrew cuando se preciona
-  sb.send( "Boton_Virtal", true);
+  sb.send( "Boton_Virtal", 1);
 }
 
-void mouseReleased() {
+void mouseReleased(){
   // Envia el mensaje a spacebrew cuando se suelta
-  sb.send( "Boton_Virtal", false);
+  sb.send( "Boton_Virtal", 0);
 }
 
 void onBooleanMessage( String name, boolean value ) {
