@@ -15,7 +15,7 @@
    height="744.09448"
    id="svg33765"
    version="1.1"
-   inkscape:version="0.48.5 r10040"
+   inkscape:version="0.48.4 r9939"
    sodipodi:docname="Gitiando.svg">
   <sodipodi:namedview
      id="base"
@@ -25,15 +25,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.24748737"
-     inkscape:cx="1864.9718"
-     inkscape:cy="-15521.4"
+     inkscape:cx="933.80892"
+     inkscape:cy="-15481.954"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1280"
-     inkscape:window-height="734"
+     inkscape:window-width="1366"
+     inkscape:window-height="712"
      inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:window-y="0"
      inkscape:window-maximized="1" />
   <defs
      id="defs33767">
@@ -381,9 +381,19 @@
        sodipodi:linespacing="125%"
        transform="scale(0.80316614,1.2450724)"><tspan
          sodipodi:role="line"
-         id="tspan4954"
          x="2839.967"
-         y="13620.291">www.github.com/chepecarlos/PresentacionesLibres</tspan></text>
+         y="13620.291"
+         id="tspan3034">alsw.net/Presentaciones-Libres</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="200"
+       y="-68.762672"
+       id="text3031"
+       sodipodi:linespacing="125%"
+       transform="translate(0,308.2677)"><tspan
+         sodipodi:role="line"
+         id="tspan3033" /></text>
   </g>
   <script
      id="sozi-script"
