@@ -2,7 +2,7 @@
 adicionales = Guia.md  
 
 #Programa convertidor de sozi a pdf
-sozi2pdf = python ../sozi2pdf/sozi2pdf.py
+sozi2pdf = python ../../sozi2pdf/sozi2pdf.py
 
 #Los archivos fuente son todos los .svg en el directorio actual
 fuentes = $(shell find -name \*.svg)
@@ -15,7 +15,7 @@ ruta := $(abspath $(lastword $(MAKEFILE_LIST)))
 directorio := $(notdir $(patsubst %/,%,$(dir $(ruta))))
 #Determina el nombre del archivo comprimido agregando la extension .zip al
 #directorio actual
-comprimido = ../Comprimidos/$(directorio).zip
+comprimido = ../../Comprimidos/$(directorio).zip
 
 $(comprimido): $(objetivos) $(fuentes) $(adicionales)
 	zip $@ $^

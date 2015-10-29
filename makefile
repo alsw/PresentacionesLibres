@@ -1,10 +1,40 @@
 comprimir:
+	(cd Arduino; make)
+	(cd CompilandoParaGatos; make)
+	(cd FPGA; make)
 	(cd Git; make)
+	(cd GNULinux; make)
+	(cd Inkscape; make)
+	(cd MiniPresentaciones; make)
 	(cd OHSV; make)
-	(cd Mini-Presentaciones-Salvajes/Rss; make)
-
+	(cd Processing; make)
+	(cd RaspberryPi; make)
+	(cd Sozi; make)
+	
 .phony: clean
 clean:
+	(cd Arduino; make clean)
+	(cd CompilandoParaGatos; make clean)
+	(cd FPGA; make clean)
 	(cd Git; make clean)
+	(cd GNULinux; make clean)
+	(cd Inkscape; make clean)
+	(cd MiniPresentaciones; make clean)
 	(cd OHSV; make clean)
-	(cd Mini-Presentaciones-Salvajes/Rss;  make clean)
+	(cd Processing; make clean)
+	(cd RaspberryPi; make clean)
+	(cd Sozi; make clean)
+	
+.phony: pdfmenos
+pdfmenos:
+	(cd Arduino; make pdfmenos)
+	(cd CompilandoParaGatos; make pdfmenos)
+	(cd FPGA; make pdfmenos)
+	(cd Git; make pdfmenos)
+	(cd GNULinux; make pdfmenos)
+	(cd Inkscape; make pdfmenos)
+	(cd MiniPresentaciones; make pdfmenos)
+	(cd OHSV; make pdfmenos)
+	(cd Processing; make pdfmenos)
+	(cd RaspberryPi; make pdfmenos)
+	(cd Sozi; make pdfmenos)

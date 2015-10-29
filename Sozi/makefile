@@ -27,7 +27,7 @@ $(comprimido): $(objetivos) $(fuentes) $(adicionales)
 clean:
 	rm -f $(comprimido)
 	rm -f $(objetivos)
-	
+
 .phony: pdfmenos
 pdfmenos:
 	rm -f $(objetivos)

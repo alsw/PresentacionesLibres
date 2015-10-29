@@ -1,5 +1,5 @@
 #Archivos que se agregan al comprimido
-adicionales = Guia.md  
+adicionales =
 
 #Programa convertidor de sozi a pdf
 sozi2pdf = python ../sozi2pdf/sozi2pdf.py
@@ -19,14 +19,14 @@ comprimido = ../Comprimidos/$(directorio).zip
 
 $(comprimido): $(objetivos) $(fuentes) $(adicionales)
 	zip $@ $^
-		
+
 %.pdf: %.svg
 	$(sozi2pdf) $<
 
 .phony: clean
 clean:
-	rm -f $(comprimido)
 	rm -f $(objetivos)
+	rm -f $(comprimido)
 	
 .phony: pdfmenos
 pdfmenos:
