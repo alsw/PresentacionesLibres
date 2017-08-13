@@ -1,10 +1,13 @@
 Comprimidos
 *.zip
 *.pdf
-*.png
+*.png*
 *.gif
 *.jpg*
 *.JPG*
 *.odp
 *.webm
 *~*
+*.jpeg
+*.mpeg
+*.js*
