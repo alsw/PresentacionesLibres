@@ -6,7 +6,7 @@
 import urllib2, json, datetime, random
 
 access_token = '900538806624473|34ceIHcz6e6GNlmT-rLBnvdO1Rw'#Token que acceso a FB
-FotoID = '1401754659879679'#ID de la foto 
+FotoID = '1452910968097381'#ID de la foto 
 
 data = urllib2.urlopen('https://graph.facebook.com/' + FotoID + '?fields=likes.limit(1000)&access_token='+access_token).read()#optiene los ultimos 1000 comentarios de la FotoID
 DatosFB = json.loads(data)#Transformar los datos a un areglo JSON
